@@ -7,11 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <title>Social network</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="navigation">
             <div class="nav__search">
                 <i class="bi bi-megaphone"></i>
@@ -29,7 +36,7 @@
                                 <li> Celebration</li>
                                 <li> Messaging</li>
                                 <!-- Dropdown submenu -->
-                                
+
                                 <li>Events</li>
                                 <li>Events 2</li>
                                 <li> Event details</li>
@@ -43,7 +50,7 @@
                                 <li>Blog</li>
                                 <li>Blog details</li>
 
-                               
+
                             </ul>
                         </div>
                     </li>
@@ -163,11 +170,11 @@
         </div>
         <div class="content">
             <div class="carousel">
-                <img src="images/car1.PNG" alt="" width="120px">
-                <img src="images/car2.PNG" alt="" width="120px">
-                <img src="images/car3.PNG" alt="" width="120px">
-                <img src="images/car4.PNG" alt="" width="120px">
-                <img src="images/car4.PNG" alt="" width="120px">
+                <img src="images/car1.PNG" width="120px" alt="">
+                <img src="images/car2.PNG" width="120px" alt="">
+                <img src="images/car3.PNG" width="120px" alt="">
+                <img src="images/car4.PNG" width="120px" alt="">
+                <img src="images/car4.PNG" width="120px" class="none" alt="">
 
             </div>
             <div class="newpost">
@@ -258,7 +265,156 @@
                         </div>
                     </div>
                     <div class="bloc__comments_content width">
+                        <img src="images/07.jpg" alt="" width="40px" class="borderimg">
+                        <div class="comment__container">
+                            <div>
+                                <p>Frances Guerrero</p>
+                                <span>5hr</span>
+                            </div>
+                            <p>Removed demands expense account in outward tedious do. Particular way thoroughly
+                                unaffected projection.</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Like </li>
+                                <li>.</li>
+                                <li>Reply</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="load width">
+                        <i class="bi bi-three-dots backgr"></i>
+                        <p>Load more replies</p>
+                    </div>
+                    <div class="bloc__comments_content">
                         <img src="images/07.jpg" alt="" width="40px">
+                        <div class="comment__container">
+                            <div>
+                                <p>Frances Guerrero</p>
+                                <span>5hr</span>
+                            </div>
+                            <p>Removed demands expense account in outward tedious do. Particular way thoroughly
+                                unaffected projection.</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Like (3)</li>
+                                <li>.</li>
+                                <li>Reply</li>
+                                <li>.</li>
+                                <li>View 5 replies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="load size">
+                        <i class="bi bi-three-dots backgr"></i>
+                        <p>Load more comments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="add">
+                <div class="add__header">
+                    <img src="images/12.svg" alt="" width="50px">
+                    <div>
+                        <p>Bootstrap: Front-end framework</p>
+                        <span>Sponsored <i class="bi bi-info-circle"></i></span>
+                    </div>
+                    <i class="bi bi-three-dots backgr"></i>
+                </div>
+                <div class="add__content">
+                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap.</p>
+                    <img src="images/02.jpg" alt="" width="100%">
+                </div>
+                <div class="add__footer">
+                    <p>Currently v5.1.3</p>
+                    <button>Download now</button>
+                </div>
+            </div>
+            <div class="bloc">
+                <div class="bloc__header">
+                    <div class="bloc__header_left">
+                        <img src="images/07.jpg" alt="" width="60px">
+                        <div>
+                            <p>
+                                Lori Ferguson<span>.</span><span>2hrs</span>
+                            </p>
+
+                            <p>Web Developer at Webestica</p>
+                        </div>
+                    </div>
+                    <i class="bi bi-three-dots backgr"></i>
+                </div>
+                <div class="bloc__post">
+                    <p>I'm so privileged to be involved in the @bootstrap hiring process! Interviewing with their team
+                        was fun and I hope this can be a valuable resource for folks! #inclusivebusiness #internship
+                        #hiring #apply</p>
+                    <div class="images">
+                        <a href="images/03 (1).jpg" data-lightbox="road" ><img src="images/03 (1).jpg" alt=""
+                                class="imgs"></a>
+                        <div class="sideImg">
+                            <a href="images/01 (1).jpg" data-lightbox="road"><img src="images/01 (1).jpg" alt=""
+                                    class="imgs"></a>
+                            <a href="images/02 (1).jpg" data-lightbox="road"><img src="images/02 (1).jpg" alt=""
+                                    class="imgs"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bloc__comments">
+                    <div class="bloc__comments_header">
+                        <div class="reactions">
+                            <div>
+                                <a href="#" class="blue"><i class="bi bi-hand-thumbs-up-fill pe-1 blue"></i>Liked
+                                    (56)</a>
+                                <a href="#"><i class="bi bi-chat-fill pe-1"></i>comment (12)</a>
+                            </div>
+                            <a href="#"><i class="bi bi-reply-fill flip-horizontal ps-1"></i>share (3)</a>
+                        </div>
+                        <div class="newComment">
+                            <img src="images/07.jpg" alt="" width="40px">
+                            <input type="text" placeholder="Add a comment ...">
+                        </div>
+                    </div>
+                    <div class="bloc__comments_content">
+                        <img src="images/07.jpg" alt="" width="40px">
+                        <div class="comment__container">
+                            <div>
+                                <p>Frances Guerrero</p>
+                                <span>5hr</span>
+                            </div>
+                            <p>Removed demands expense account in outward tedious do. Particular way thoroughly
+                                unaffected projection.</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Like (3)</li>
+                                <li>.</li>
+                                <li>Reply</li>
+                                <li>.</li>
+                                <li>View 5 replies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bloc__comments_content width">
+                        <img src="images/07.jpg" alt="" width="40px">
+                        <div class="comment__container">
+                            <div>
+                                <p>Frances Guerrero</p>
+                                <span>5hr</span>
+                            </div>
+                            <p>Removed demands expense account in outward tedious do. Particular way thoroughly
+                                unaffected projection.</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Like (5)</li>
+                                <li>.</li>
+                                <li>Reply</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bloc__comments_content width">
+                        <img src="images/07.jpg" alt="" width="40px" class="borderimg">
                         <div class="comment__container">
                             <div>
                                 <p>Frances Guerrero</p>
@@ -311,7 +467,7 @@
             <section>
                 <h2>Who to follow</h2>
                 <div class="right__person">
-                    <img src="images/07.jpg" alt="" width="50px">
+                    <img src="images/04.jpg" alt="" width="50px">
                     <div>
                         <p>Judy Nguyen</p>
                         <span>News anchor</span>
@@ -319,7 +475,7 @@
                     <i class="bi bi-plus-circle"></i>
                 </div>
                 <div class="right__person">
-                    <img src="images/07.jpg" alt="" width="50px" class="borderblue">
+                    <img src="images/05.jpg" alt="" width="50px" class="borderblue">
                     <div>
                         <p>Amanda reed</p>
                         <span>Web Developer</span>
@@ -327,7 +483,7 @@
                     <i class="bi bi-plus-circle"></i>
                 </div>
                 <div class="right__person">
-                    <img src="images/07.jpg" alt="" width="50px">
+                    <img src="images/11.jpg" alt="" width="50px">
                     <div>
                         <p>Billy Vasquez</p>
                         <span>News anchor</span>
@@ -335,7 +491,7 @@
                     <i class="bi bi-person-check"></i>
                 </div>
                 <div class="right__person">
-                    <img src="images/07.jpg" alt="" width="50px">
+                    <img src="images/12.jpg" alt="" width="50px">
                     <div>
                         <p>Lori Ferguson</p>
                         <span>Developer at ...</span>
@@ -343,7 +499,7 @@
                     <i class="bi bi-plus-circle"></i>
                 </div>
                 <div class="right__person">
-                    <img src="images/07.jpg" alt="" width="50px">
+                    <img src="images/placeholder.jpg" alt="" width="50px">
                     <div>
                         <p>Carolyn Ortiz</p>
                         <span>News anchor</span>
@@ -378,6 +534,13 @@
             </section>
         </div>
     </main>
+    <script src="js/lightbox.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        })
+    </script>
 </body>
 
 </html>
